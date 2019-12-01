@@ -20,7 +20,6 @@ public class ResourceKonto {
         alleKunden = AlleKunden.getInstance();
     }
 
-
     // 4.
     /* Für ein Konto mit gegebener Nummer
      *  @Path /konten/{nummer}
@@ -28,8 +27,6 @@ public class ResourceKonto {
      * @Post
      *
      * Antwort Name des Kunden, neuer Kontostand
-     *
-     *
      * */
 
     @Path("{nummer}")
@@ -62,16 +59,27 @@ public class ResourceKonto {
     }
 
     /*
-     * 7.
+     * 7.2
      * Alle Transaktionen eines Kontos mit gegebener Nummer
      * zurückgeben
      */
-    @Path("{nummer}/transaktionen")
     @GET
+    @Path("{nummer}/transaktionen")
     @Produces(MediaType.APPLICATION_XML)
     @Consumes(MediaType.APPLICATION_XML)
-    public ArrayList<Transaktion> getTransaktionenFromKonto(@PathParam("nummer") int nummer){
+    public ArrayList<Transaktion> getTransaktionenFromKonto(@PathParam("nummer") int nummer, @QueryParam("transaktionstyp") String typ){
+
         Konto konto = alleKonten.getKontoByNummer(nummer);
-        return konto.getTransaktionen();
+
+        Transaktion.Transaktionstyp transaktionsTyp;
+        if(typ.equals("EINZAHLUNG")){
+            transaktionsTyp = Transaktion.Transaktionstyp.EINZAHLUNG;
+        } else if(typ.equals("AUSZAHLUNG")){
+            transaktionsTyp = Transaktion.Transaktionstyp.AUSZAHLUNG;
+        } else {
+            return null;
+        }
+
+        return konto.getTransaktionen(transaktionsTyp);
     }
 }

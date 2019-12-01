@@ -3,15 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="ef57a566-a9bb-4c3e-aa70-af580a7591b4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EKS2.2/main/java/client/startClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EKS2.2/main/java/client/startClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EKS2.2/main/java/server/entities/Konto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EKS2.2/main/java/server/entities/Konto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EKS2.2/main/java/server/entities/Transaktion$Transaktionstyp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EKS2.2/main/java/server/entities/Transaktion$Transaktionstyp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EKS2.2/main/java/server/entities/Transaktion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EKS2.2/main/java/server/entities/Transaktion.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EKS2.2/main/java/server/resource/ResourceKonto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EKS2.2/main/java/server/resource/ResourceKonto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EKS2.2/main/java/server/verwaltung/AlleKonten.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EKS2.2/main/java/server/verwaltung/AlleKonten.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EKS2.2/main/java/server/resource/ResourceKunde.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EKS2.2/main/java/server/resource/ResourceKunde.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/startClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/startClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/server/entities/Konto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/entities/Konto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/entities/Transaktion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/entities/Transaktion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/entities/Kunde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/entities/Kunde.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/server/resource/ResourceKonto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/resource/ResourceKonto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/verwaltung/AlleKonten.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/verwaltung/AlleKonten.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/resource/ResourceKunde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/resource/ResourceKunde.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575208275651</updated>
       <workItem from="1575208279557" duration="8694000" />
-      <workItem from="1575217595056" duration="15640000" />
+      <workItem from="1575217595056" duration="23264000" />
     </task>
     <servers />
   </component>
@@ -137,38 +137,38 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1112" y="302" key="FileChooserDialogImpl/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575211931848" />
-    <state width="1877" height="316" key="GridCell.Tab.0.bottom" timestamp="1575236792135">
+    <state width="1877" height="316" key="GridCell.Tab.0.bottom" timestamp="1575244308653">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575236792135" />
-    <state width="1877" height="316" key="GridCell.Tab.0.center" timestamp="1575236792135">
+    <state width="1877" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575244308653" />
+    <state width="1877" height="316" key="GridCell.Tab.0.center" timestamp="1575244308653">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.0.center/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575236792135" />
-    <state width="1877" height="316" key="GridCell.Tab.0.left" timestamp="1575236792135">
+    <state width="1877" height="316" key="GridCell.Tab.0.center/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575244308653" />
+    <state width="1877" height="316" key="GridCell.Tab.0.left" timestamp="1575244308653">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.0.left/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575236792135" />
-    <state width="1877" height="316" key="GridCell.Tab.0.right" timestamp="1575236792135">
+    <state width="1877" height="316" key="GridCell.Tab.0.left/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575244308653" />
+    <state width="1877" height="316" key="GridCell.Tab.0.right" timestamp="1575244308653">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.0.right/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575236792135" />
-    <state width="1877" height="364" key="GridCell.Tab.1.bottom" timestamp="1575236790573">
+    <state width="1877" height="316" key="GridCell.Tab.0.right/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575244308653" />
+    <state width="1877" height="364" key="GridCell.Tab.1.bottom" timestamp="1575244057885">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="364" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575236790573" />
-    <state width="1877" height="364" key="GridCell.Tab.1.center" timestamp="1575236790572">
+    <state width="1877" height="364" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575244057885" />
+    <state width="1877" height="364" key="GridCell.Tab.1.center" timestamp="1575244057885">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="364" key="GridCell.Tab.1.center/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575236790572" />
-    <state width="1877" height="364" key="GridCell.Tab.1.left" timestamp="1575236790572">
+    <state width="1877" height="364" key="GridCell.Tab.1.center/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575244057885" />
+    <state width="1877" height="364" key="GridCell.Tab.1.left" timestamp="1575244057885">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="364" key="GridCell.Tab.1.left/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575236790572" />
-    <state width="1877" height="364" key="GridCell.Tab.1.right" timestamp="1575236790572">
+    <state width="1877" height="364" key="GridCell.Tab.1.left/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575244057885" />
+    <state width="1877" height="364" key="GridCell.Tab.1.right" timestamp="1575244057885">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="364" key="GridCell.Tab.1.right/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575236790572" />
+    <state width="1877" height="364" key="GridCell.Tab.1.right/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575244057885" />
     <state x="-913" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1575217678154">
       <screen x="-1218" y="0" width="1218" height="1024" />
     </state>
@@ -182,79 +182,42 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/server/resource/ResourceKunde.java</url>
-          <line>101</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/client/startClient.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/client/startClient.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/client/startClient.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="55" />
+          <url>file://$PROJECT_DIR$/src/main/java/server/resource/ResourceKonto.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/server/resource/ResourceKonto.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/server/resource/ResourceKonto.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/server/entities/Konto.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/server/entities/Konto.java</url>
           <line>40</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/server/resource/ResourceKonto.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/server/resource/ResourceKonto.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/server/resource/ResourceKonto.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/server/resource/ResourceKonto.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/server/verwaltung/AlleKonten.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/server/verwaltung/AlleKonten.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/server/verwaltung/AlleKonten.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/server/verwaltung/AlleKonten.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="69" />
+          <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/server/entities/Konto.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="70" />
+          <line>45</line>
+          <option name="timeStamp" value="98" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/server/entities/Konto.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="71" />
+          <line>38</line>
+          <properties class="main.java.server.entities.Konto" method="getTransaktionen">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="95" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

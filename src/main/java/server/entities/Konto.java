@@ -36,6 +36,16 @@ public class Konto {
         return transaktionen;
     }
 
+    public ArrayList<Transaktion> getTransaktionen(Transaktion.Transaktionstyp transaktionstyp){
+        ArrayList<Transaktion> transaktionenTemp = new ArrayList<Transaktion>();
+        for(int i = 0; i < transaktionen.size();i++){
+            if(transaktionstyp == transaktionen.get(i).getTransaktionstyp()){
+                transaktionenTemp.add(transaktionen.get(i));
+            }
+        }
+        return transaktionenTemp;
+    }
+
     public int getStand(){return stand;}
     public Kunde getBesitzer(){return besitzer;}
 
@@ -44,7 +54,7 @@ public class Konto {
         if(transaktion.getTransaktionstyp() == Transaktion.Transaktionstyp.EINZAHLUNG){
             stand += transaktion.getBetrag();
         }
-        if ((transaktion.getTransaktionstyp() == Transaktion.Transaktionstyp.EINZAHLUNG)){
+        if ((transaktion.getTransaktionstyp() == Transaktion.Transaktionstyp.AUSZAHLUNG)){
             stand -= transaktion.getBetrag();
         }
         transaktionen.add(transaktion);

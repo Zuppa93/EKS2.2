@@ -80,7 +80,7 @@ public class ResourceKunde {
      * Alle Konten eines Kunden sollen ausgegeben werden
      * */
     @GET
-    @Path("{name}/konten ")
+    @Path("{name}/konten")
     @Produces(MediaType.APPLICATION_XML)
     @Consumes(MediaType.APPLICATION_XML)
     public ArrayList<Konto> getKontenFromKunde(@PathParam("name") String name){

@@ -38,7 +38,7 @@ public class startClient {
         System.out.println("#####################################################################################");
 
         Kunde peter = target.path("kunden/"+kundePeter.getName()).request().accept(MediaType.APPLICATION_XML).get(Kunde.class);
-        System.out.println("        Name : "+peter.getName());
+        System.out.println("        Name : "+peter.getName()+" Adresse: "+peter.getAdresse());
 
 
 
@@ -67,6 +67,62 @@ public class startClient {
         System.out.println("Kontonummer: "+kontoMichael.getNummer());
         String neueTransaktion = target.path("konten/"+kontoMichael.getNummer()).request(MediaType.APPLICATION_XML).accept(MediaType.APPLICATION_XML).post(Entity.entity(transaktionMichael,MediaType.APPLICATION_XML_TYPE),String.class);
         System.out.println(neueTransaktion);
+
+        // 5.
+        System.out.println("#####################################################################################");
+        System.out.println("Teil 5 ");
+        System.out.println("#####################################################################################");
+
+        Konto[] konten = target.path("kunden/"+kundeMichael.getName()+"/konten").request().accept(MediaType.APPLICATION_XML).get(Konto[].class);
+        for(int i = 0; i < konten.length;i++){
+            System.out.println("Konto: "+(i+1)+" Nummer: "+konten[i].getNummer()+" Kontostand: "+konten[i].getStand());
+        }
+
+        // 6.
+        System.out.println("#####################################################################################");
+        System.out.println("Teil 6 ");
+        System.out.println("#####################################################################################");
+
+        transaktionMichael = new Transaktion(Transaktion.Transaktionstyp.AUSZAHLUNG,20,kundeMichael.getKundenKontoByNummer(Integer.parseInt(kNUmmerMichael)));
+        neueTransaktion = target.path("konten/"+kontoMichael.getNummer()).request(MediaType.APPLICATION_XML).accept(MediaType.APPLICATION_XML).post(Entity.entity(transaktionMichael,MediaType.APPLICATION_XML_TYPE),String.class);
+        System.out.println(neueTransaktion);
+
+        // 7.
+        System.out.println("#####################################################################################");
+        System.out.println("Teil 7 ");
+        System.out.println("#####################################################################################");
+
+        String antwort = target.path("konten/"+kNUmmerMichael).request().accept(MediaType.APPLICATION_XML).get(String.class);
+        System.out.println(antwort);
+
+        // 8.
+        System.out.println("#####################################################################################");
+        System.out.println("Teil 8 ");
+        System.out.println("#####################################################################################");
+
+        /*Professor[] alleProfsAusKoeln =target.path("uniservice").path("profs").queryParam("adresse","Koeln").request().accept(MediaType.APPLICATION_XML).get(Professor[].class);*/
+        Transaktion[] transaktionen = target.path("konten/"+kNUmmerMichael+"/transaktionen").queryParam("transaktionstyp","EINZAHLUNG").request().accept(MediaType.APPLICATION_XML).get(Transaktion[].class);
+        System.out.println("Transaktionen:");
+        for(int i = 0;i < transaktionen.length;i++){
+            System.out.println(transaktionen[i].getTransaktionstyp()+" Betrag : "+transaktionen[i].getBetrag());
+        }
+
+        // 9.
+        System.out.println("#####################################################################################");
+        System.out.println("Teil 9 ");
+        System.out.println("#####################################################################################");
+
+        /*Professor[] alleProfsAusKoeln =target.path("uniservice").path("profs").queryParam("adresse","Koeln").request().accept(MediaType.APPLICATION_XML).get(Professor[].class);*/
+        transaktionen = target.path("konten/"+kNUmmerMichael+"/transaktionen").queryParam("transaktionstyp","AUSZAHLUNG").request().accept(MediaType.APPLICATION_XML).get(Transaktion[].class);
+        System.out.println("Transaktionen:");
+        for(int i = 0;i < transaktionen.length;i++){
+            System.out.println(transaktionen[i].getTransaktionstyp()+" Betrag : "+transaktionen[i].getBetrag());
+        }
+
+        // 10.
+        System.out.println("#####################################################################################");
+        System.out.println("Teil 10 ");
+        System.out.println("#####################################################################################");
 
         Kunde[] response = target.path("kunden").request(MediaType.APPLICATION_XML).accept(MediaType.APPLICATION_XML).get(Kunde[].class);
         for(int i = 0; i < response.length;i++){

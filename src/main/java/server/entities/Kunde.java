@@ -26,6 +26,7 @@ public class Kunde {
     public String getName(){
         return name;
     }
+    public String getAdresse(){return adresse;}
 
     public void addKonto(Konto konto){
         if(konten == null){
