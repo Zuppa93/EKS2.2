@@ -1,5 +1,6 @@
 package main.java.server.entities;
 
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
@@ -7,8 +8,11 @@ public class Transaktion {
     public enum Transaktionstyp{
         EINZAHLUNG,AUSZAHLUNG
     }
+    @XmlElement
     private Transaktionstyp transaktionstyp;
+    @XmlElement
     private int betrag;
+    @XmlElement
     private Konto konto;
 
     public Transaktion(){}

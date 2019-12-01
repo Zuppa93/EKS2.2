@@ -39,20 +39,10 @@ public class ResourceKonto {
     public String addTransaktion(@PathParam("nummer") String nummer, Transaktion transaktion){
 
         Konto konto = alleKonten.getKontoByNummer(Integer.parseInt(nummer));
-
         if(konto == null){
             return "Konto not found";
         }
-
-        if(transaktion.getTransaktionstyp().equals("EINZAHLUNG")){
-            transaktion = new Transaktion(Transaktion.Transaktionstyp.EINZAHLUNG,transaktion.getBetrag(),konto);
-        } else if (transaktion.getTransaktionstyp().equals("AUSZAHLUNG")){
-            transaktion = new Transaktion(Transaktion.Transaktionstyp.AUSZAHLUNG,transaktion.getBetrag(),konto);
-        }else{
-            return "Ambivalenter TransaktionsTyp";
-        }
-
-        alleKonten.getKontoByNummer(Integer.parseInt(nummer)).addTransaktion(transaktion);
+        alleKonten.addTransaktionToKonto(konto,transaktion);
 
         return konto.getBesitzer().getName() + " " + Integer.toString(konto.getStand());
     }

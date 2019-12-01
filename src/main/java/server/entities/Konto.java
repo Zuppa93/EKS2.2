@@ -11,7 +11,7 @@ public class Konto {
     private int stand;
     @XmlElement
     private int nummer;
-    @XmlElement
+    //@XmlElement
     private Kunde besitzer;
     @XmlElement
     private ArrayList<Transaktion> transaktionen;
@@ -25,7 +25,7 @@ public class Konto {
         this.stand = stand;
         lastNumber++;
         nummer = lastNumber;
-        transaktionen = null;
+        transaktionen = new ArrayList<Transaktion>();
     }
 
     public int getNummer(){
