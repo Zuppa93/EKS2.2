@@ -1,0 +1,39 @@
+<component name="libraryTable">
+  <library name="jersey-container-jdk-http-2.27">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/dependency/aopalliance-repackaged-2.5.0-b42.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/cdi-api-2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/hk2-api-2.5.0-b42.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/hk2-locator-2.5.0-b42.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/hk2-utils-2.5.0-b42.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/javassist-3.22.0-CR2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/javax.annotation-api-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/javax.el-api-3.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/javax.inject-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/javax.inject-2.5.0-b42.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/javax.interceptor-api-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/javax.json-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/javax.json-api-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/javax.json.bind-api-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/javax.ws.rs-api-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/jaxrs-ri-2.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/jersey-client-2.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/jersey-common-2.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/jersey-container-jdk-http-2.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/jersey-container-servlet-2.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/jersey-container-servlet-core-2.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/jersey-hk2-2.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/jersey-media-jaxb-2.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/jersey-media-json-binding-2.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/jersey-media-sse-2.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/jersey-server-2.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/osgi-resource-locator-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/validation-api-1.1.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/dependency/yasson-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/target/dependency/jaxrs-ri-2.27.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef57a566-a9bb-4c3e-aa70-af580a7591b4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UNsEWPPV8F3rVXH3mWT4klPf0M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/dependency/yasson-1.0.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.2125" />
+    <property name="project.structure.side.proportion" value="0.2179676" />
+  </component>
+  <component name="RunManager" selected="Application.startClient">
+    <configuration name="startClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.client.startClient" />
+      <module name="EKS2.2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="startServer " type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.server.startServer" />
+      <module name="EKS2.2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.startServer " />
+      <item itemvalue="Application.startClient" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.startClient" />
+        <item itemvalue="Application.startServer " />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef57a566-a9bb-4c3e-aa70-af580a7591b4" name="Default Changelist" comment="" />
+      <created>1575208275651</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575208275651</updated>
+      <workItem from="1575208279557" duration="8694000" />
+      <workItem from="1575217595056" duration="13488000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="535" y="179" key="#Project_Structure" timestamp="1575211935558">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="535" y="179" key="#Project_Structure/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575211935558" />
+    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575211799212">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575211799212" />
+    <state x="590" y="228" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1575211625034">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="590" y="228" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575211625034" />
+    <state width="432" height="466" key="DebuggerActiveHint" timestamp="1575232138137">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="432" height="466" key="DebuggerActiveHint/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575232138137" />
+    <state x="714" y="255" key="DetectedRootsChooserDialog" timestamp="1575209138906">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="714" y="255" key="DetectedRootsChooserDialog/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575209138906" />
+    <state x="1112" y="302" key="FileChooserDialogImpl" timestamp="1575211931848">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1112" y="302" key="FileChooserDialogImpl/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575211931848" />
+    <state width="1877" height="364" key="GridCell.Tab.0.bottom" timestamp="1575233305015">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575233305015" />
+    <state width="1877" height="364" key="GridCell.Tab.0.center" timestamp="1575233305014">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="364" key="GridCell.Tab.0.center/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575233305014" />
+    <state width="1877" height="364" key="GridCell.Tab.0.left" timestamp="1575233305014">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="364" key="GridCell.Tab.0.left/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575233305014" />
+    <state width="1877" height="364" key="GridCell.Tab.0.right" timestamp="1575233305014">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="364" key="GridCell.Tab.0.right/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575233305014" />
+    <state width="1877" height="364" key="GridCell.Tab.1.bottom" timestamp="1575233305015">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="364" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575233305015" />
+    <state width="1877" height="364" key="GridCell.Tab.1.center" timestamp="1575233305015">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="364" key="GridCell.Tab.1.center/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575233305015" />
+    <state width="1877" height="364" key="GridCell.Tab.1.left" timestamp="1575233305015">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="364" key="GridCell.Tab.1.left/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575233305015" />
+    <state width="1877" height="364" key="GridCell.Tab.1.right" timestamp="1575233305015">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="364" key="GridCell.Tab.1.right/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575233305015" />
+    <state x="-913" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1575217678154">
+      <screen x="-1218" y="0" width="1218" height="1024" />
+    </state>
+    <state x="-913" y="335" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1218.0.1218.1024@-1218.0.1218.1024" timestamp="1575217678154" />
+    <state x="666" y="168" key="refactoring.ChangeSignatureDialog" timestamp="1575215180979">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="666" y="168" key="refactoring.ChangeSignatureDialog/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575215180979" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/server/resource/ResourceKunde.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/server/resource/ResourceKunde.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/server/resource/ResourceKonto.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/server/resource/ResourceKunde.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/client/startClient.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/server/resource/ResourceKunde.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/server/verwaltung/AlleKunden.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/server/verwaltung/AlleKunden.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/server/verwaltung/AlleKunden.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/server/verwaltung/AlleKunden.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/server/verwaltung/AlleKunden.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/server/verwaltung/AlleKunden.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/server/verwaltung/AlleKunden.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
