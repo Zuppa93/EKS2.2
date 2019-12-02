@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef57a566-a9bb-4c3e-aa70-af580a7591b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/WADL.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EKS2.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EKS2.2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EKS2.2/main/java/client/startClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EKS2.2/main/java/client/startClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EKS2.2/main/java/server/entities/Konto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EKS2.2/main/java/server/entities/Konto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EKS2.2/main/java/server/entities/Kunde.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EKS2.2/main/java/server/entities/Kunde.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EKS2.2/main/java/server/resource/ResourceKonto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EKS2.2/main/java/server/resource/ResourceKonto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EKS2.2/main/java/server/resource/ResourceKunde.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EKS2.2/main/java/server/resource/ResourceKunde.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/startClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/startClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/entities/Konto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/entities/Konto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/entities/Kunde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/entities/Kunde.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/resource/ResourceKonto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/resource/ResourceKonto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/resource/ResourceKunde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/resource/ResourceKunde.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="cdi.beans_1_1" />
       </list>
     </option>
   </component>
@@ -43,6 +41,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.2125" />
     <property name="project.structure.side.proportion" value="0.2179676" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.startClient">
     <configuration name="startClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -105,7 +104,9 @@
       <option name="presentableId" value="Default" />
       <updated>1575208275651</updated>
       <workItem from="1575208279557" duration="8694000" />
-      <workItem from="1575217595056" duration="23264000" />
+      <workItem from="1575217595056" duration="23566000" />
+      <workItem from="1575276695182" duration="1683000" />
+      <workItem from="1575278929689" duration="1113000" />
     </task>
     <servers />
   </component>
@@ -121,10 +122,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575211799212" />
-    <state x="590" y="228" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1575211625034">
+    <state x="318" y="228" width="1012" height="623" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1575278901635">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="590" y="228" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575211625034" />
+    <state x="318" y="228" width="1012" height="623" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575278901635" />
     <state width="432" height="466" key="DebuggerActiveHint" timestamp="1575232138137">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -133,46 +134,51 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="714" y="255" key="DetectedRootsChooserDialog/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575209138906" />
-    <state x="1112" y="302" key="FileChooserDialogImpl" timestamp="1575211931848">
+    <state x="1112" y="302" key="FileChooserDialogImpl" timestamp="1575278898362">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1112" y="302" key="FileChooserDialogImpl/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575211931848" />
-    <state width="1877" height="316" key="GridCell.Tab.0.bottom" timestamp="1575244308653">
+    <state x="1112" y="302" key="FileChooserDialogImpl/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575278898362" />
+    <state width="1877" height="316" key="GridCell.Tab.0.bottom" timestamp="1575279069673">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575244308653" />
-    <state width="1877" height="316" key="GridCell.Tab.0.center" timestamp="1575244308653">
+    <state width="1877" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575279069673" />
+    <state width="1877" height="316" key="GridCell.Tab.0.center" timestamp="1575279069673">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.0.center/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575244308653" />
-    <state width="1877" height="316" key="GridCell.Tab.0.left" timestamp="1575244308653">
+    <state width="1877" height="316" key="GridCell.Tab.0.center/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575279069673" />
+    <state width="1877" height="316" key="GridCell.Tab.0.left" timestamp="1575279069673">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.0.left/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575244308653" />
-    <state width="1877" height="316" key="GridCell.Tab.0.right" timestamp="1575244308653">
+    <state width="1877" height="316" key="GridCell.Tab.0.left/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575279069673" />
+    <state width="1877" height="316" key="GridCell.Tab.0.right" timestamp="1575279069673">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="316" key="GridCell.Tab.0.right/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575244308653" />
-    <state width="1877" height="364" key="GridCell.Tab.1.bottom" timestamp="1575244057885">
+    <state width="1877" height="316" key="GridCell.Tab.0.right/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575279069673" />
+    <state width="1877" height="364" key="GridCell.Tab.1.bottom" timestamp="1575244944385">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="364" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575244057885" />
-    <state width="1877" height="364" key="GridCell.Tab.1.center" timestamp="1575244057885">
+    <state width="1877" height="364" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575244944385" />
+    <state width="1877" height="364" key="GridCell.Tab.1.center" timestamp="1575244944385">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="364" key="GridCell.Tab.1.center/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575244057885" />
-    <state width="1877" height="364" key="GridCell.Tab.1.left" timestamp="1575244057885">
+    <state width="1877" height="364" key="GridCell.Tab.1.center/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575244944385" />
+    <state width="1877" height="364" key="GridCell.Tab.1.left" timestamp="1575244944385">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="364" key="GridCell.Tab.1.left/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575244057885" />
-    <state width="1877" height="364" key="GridCell.Tab.1.right" timestamp="1575244057885">
+    <state width="1877" height="364" key="GridCell.Tab.1.left/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575244944385" />
+    <state width="1877" height="364" key="GridCell.Tab.1.right" timestamp="1575244944385">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="364" key="GridCell.Tab.1.right/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575244057885" />
-    <state x="-913" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1575217678154">
-      <screen x="-1218" y="0" width="1218" height="1024" />
+    <state width="1877" height="364" key="GridCell.Tab.1.right/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575244944385" />
+    <state x="461" y="182" key="SettingsEditor" timestamp="1575278183608">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="182" key="SettingsEditor/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575278183608" />
+    <state x="481" y="353" key="com.intellij.ide.util.TipDialog" timestamp="1575278930141">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="-913" y="335" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1218.0.1218.1024@-1218.0.1218.1024" timestamp="1575217678154" />
+    <state x="481" y="353" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1218.0.1218.1024@0.0.1920.1080" timestamp="1575278930141" />
     <state x="666" y="168" key="refactoring.ChangeSignatureDialog" timestamp="1575215180979">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -181,21 +187,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/server/resource/ResourceKonto.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="91" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/server/resource/ResourceKonto.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="92" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/server/resource/ResourceKonto.java</url>
-          <line>82</line>
-          <option name="timeStamp" value="93" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/server/entities/Konto.java</url>
           <line>39</line>

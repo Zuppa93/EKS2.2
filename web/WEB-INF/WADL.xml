@@ -1,0 +1,78 @@
+<application>
+    <resources base="localhost:55554/bankservices">
+        <resources base="/kunden">
+            <method name="POST">
+                <request>
+                    <representation mediaType="application/xml"/>
+                </request>
+                <response>
+                    <representation mediaType="application/xml"/>
+                </response>
+            </method>
+            <method name="GET">
+                <response>
+                    <representation mediaType="application/xml"/>
+                </response>
+            </method>
+            <resource path="/{name}/">
+                <method name="GET">
+                    <request>
+                        <representation mediaType="application/xml"/>
+                    </request>
+                    <response>
+                        <representation mediaType="application/xml"/>
+                    </response>
+                </method>
+                <method name="POST">
+                    <request>
+                        <representation mediaType="application/xml"/>
+                    </request>
+                    <response>
+                        <representation mediaType="application/xml"/>
+                    </response>
+                </method>
+                <resource path="/konten">
+                    <method name="GET">
+                        <request>
+                            <representation mediaType="application/xml"/>
+                        </request>
+                        <response>
+                            <representation mediaType="application/xml"/>
+                        </response>
+                    </method>
+                </resource>
+
+            </resource>
+        </resources>
+        <resources base="/konten/">
+            <resource path="{nummer}">
+                <method name="POST">
+                    <request>
+                        <representation mediaType="application/xml"/>
+                    </request>
+                    <response>
+                        <representation mediaType="application/xml"/>
+                    </response>
+                </method>
+                <method name="GET">
+                    <request>
+                        <representation mediaType="application/xml"/>
+                    </request>
+                    <response>
+                        <representation mediaType="application/xml"/>
+                    </response>
+                </method>
+                <resource path="/transaktionen">
+                    <method name="GET">
+                        <request>
+                            <representation mediaType="application/xml"/>
+                        </request>
+                        <response>
+                            <representation mediaType="application/xml"/>
+                        </response>
+                    </method>
+                </resource>
+            </resource>
+        </resources>
+    </resources>
+</application>
